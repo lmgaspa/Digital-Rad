@@ -27,7 +27,7 @@ const Quemsomos: React.FC = () => {
           <h3>
             Dentre nossos parceiros estão, a Irmandade da Santa Casa Nossa Senhora das Graças, a AMIL do United Health Group,
             Centro de Diagnóstico Capão Raso, Clínica Dr.
-            Mantovani na cidade de Fazenda Rio Grande, entre outros no interior do Estado do Paraná, que podem atestar a
+            Mantovani, entre outros no interior do Estado do Paraná, que podem atestar a
             satisfação e o sucesso da nossa parceria.
           </h3>
           <h2>

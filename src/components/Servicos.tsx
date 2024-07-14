@@ -31,8 +31,7 @@ export default function Servicos() {
             serviço.</h3>
           <h3>
             Dentre nossos parceiros estão a Irmandade da Santa Casa de Misericórdia Nossa Senhora Das
-            Graças - Piên, Clínica de Diagnóstico Capão Raso, Clínica Dr. Mantovani na cidade de Fazenda Rio
-            Grande, Fundação Estatal de Atenção à Saúde de Curitiba - FEAS, entre outros no interior do Estado
+            Graças - Piên, Clínica de Diagnóstico Capão Raso, Clínica Dr. Mantovani, entre outros no interior do Estado
             Do Paraná.</h3>
           <h3>
             Além de mão de obra especializada, contamos com o serviço de telerradiologia que permite o

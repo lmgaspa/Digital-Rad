@@ -26,7 +26,7 @@ const ServicosPage: React.FC = () => {
           <h3>
             A Digital Rad além de disponibilizar tecnólogos e técnicos em radiologia, realiza o serviço de gestão
             do setor de diagnóstico por imagem, oferece aos seus clientes terceirização de equipe médica,
-            laudos através da telerradiologia, equipe de enfermagem qualificada e especializada, insumos e todos
+            laudos através da telerradiologia, insumos e todos
             os recursos necessários para prestação dos serviços.</h3>
           <h1>IMPLEMENTANDO A TERCEIRIZAÇÃO NA CLÍNICA DE RADIOLOGIA E HOSPITAIS</h1>
           <h3>
