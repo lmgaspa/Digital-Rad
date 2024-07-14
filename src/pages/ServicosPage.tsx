@@ -87,11 +87,11 @@ const ServicosPage: React.FC = () => {
           <h3>Como benefícios, esses modelos garantem mais qualidade da imagem radiológica, redução da exposição à radiação e mais facilidade na transmissão e armazenamento dos exames.</h3>
           <h1>GESTÃO DE PRESTADORES DE SERVIÇO</h1>
           <h3>Os radiologistas terceirizados respondem diretamente à parceira de telerradiologia, que é responsável por: </h3>
-          <h3>&#10004;Contratação e treinamento.</h3>
-          <h3>&#10004;Aperfeiçoamento profissional conforme a cultura da empresa contratante.</h3>
-          <h3>&#10004;Supervisão das atividades.</h3>
-          <h3>&#10004;Gestão das escalas para garantir a disponibilidade dos serviços.</h3>
-          <h3>&#10004;Plataforma para transmissão de laudos e imagens.</h3>
+          <h3>&#10004; Contratação e treinamento.</h3> 
+          <h3>&#10004; Aperfeiçoamento profissional conforme a cultura da empresa contratante.</h3>
+          <h3>&#10004; Supervisão das atividades.</h3>
+          <h3>&#10004; Gestão das escalas para garantir a disponibilidade dos serviços.</h3>
+          <h3>&#10004; Plataforma para transmissão de laudos e imagens.</h3>
           <h3>É fundamental que a clínica ou hospital verifique aspectos como a idoneidade da prestadora, a regulamentação dela e dos colaboradores que passam a ser prestadores na instituição de saúde, assim podemos garantir o cumprimento de todas as necessidades e manter os propósitos de sua empresa.</h3>
           <h3>Com tais cuidados, é possível ter uma série de benefícios gerenciais na implementação da telerradiologia, promovendo a consolidação e o crescimento da clínica ou hospital.</h3>
         </div>
