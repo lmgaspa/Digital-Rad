@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../layouts/prenavbar.module.css';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';

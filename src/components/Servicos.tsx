@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../layouts/servicos.module.css'
 import slogan from '../assets/slogan.jpeg';
 import icon1 from '../assets/icone1.png';
