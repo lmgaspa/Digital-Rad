@@ -1,0 +1,5 @@
+# Configura os tipos MIME corretos para arquivos JavaScript e TypeScript
+AddType application/javascript .js
+AddType application/javascript .mjs
+AddType application/javascript .ts
+AddType application/javascript .tsx
