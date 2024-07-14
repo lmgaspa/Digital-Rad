@@ -1,0 +1,98 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o container ocupe toda a altura da viewport */
+  }
+
+.containertrabalhe {
+    display: grid;
+    flex-direction: column;
+    font-size: 1.2rem;
+    align-items: center;
+    float: right;
+    margin-top: 22vh;
+    margin-right: 7vw;
+    width: 38%;
+}
+
+.containertrabalhe h1 {
+    color: #004884;
+    margin-bottom: 0.8vh;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.containertrabalhe h3 {
+    margin-top:  0.6vh;
+    margin-bottom: 0.8vh;
+    color: black;
+    font-weight: 300;
+}
+
+.containertrabalhe span {
+    color: #372465;
+    font-weight: 600;
+}
+
+.trabimage {
+    display: flex;
+    margin: auto;
+    float: left;
+    width: 40%;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+.down {
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    .containertrabalhe {
+        margin-top: 5vh;
+        margin-left: 4vw;
+        padding: 0;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        width: auto;
+        font-size: 1.4rem;
+    }
+    
+    .trabimage {
+       width: 100%;
+       max-width: 100%;
+       height: auto;
+       margin-top: 2rem;
+       display: block; /* Para centralizar a imagem */
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .containertrabalhe {
+        margin-top: 5vh;
+        margin-left: 4vw;
+        padding: 0;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        width: auto;
+        font-size: 1.1rem;
+    }
+
+    .containertrabalhe h1 {
+        font-size: 1.6rem;
+    }
+
+    .trabimage {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 2rem;
+        display: block; /* Para centralizar a imagem */
+        margin-left: auto;
+        margin-right: auto;
+     }
+}

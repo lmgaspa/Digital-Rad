@@ -1,0 +1,180 @@
+.containerhome {
+    height: auto;
+    color: black;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.containerhome p {
+    padding-left: 5vw;
+    max-width: 35vw;    
+    margin-bottom: 4vh;
+}
+
+.containerhome span {
+    color: #004884;
+    font-size: 46px;
+}
+
+.containerhome .span2 {
+    color: #004884;
+    font-size: 32px;
+}
+
+.divleft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    Justify-Content: center;
+    align-items: center;
+}
+
+.divright {
+    width: 50%;
+}
+
+.divright img {
+    width: 90%;
+    margin-top: 2vh;
+}
+
+.divleft button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-bottom: 1vh;
+    width: 60%;
+    font-family: Calibri, sans-serif;
+}
+
+.button1 {
+    background-color: #009dc5;
+    padding: 0.7rem 5rem;
+}
+
+.button2 {
+    background-color: #009dc5;
+    padding: 0.7rem 6.4rem;
+}
+
+.divleft button:hover{
+    background-color:#004884;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1463px) {
+    .divleft button {
+        margin-left: 2vw;
+        font-size: 1.4rem;
+        width: 70%;
+    }
+
+    .containerhome p {
+        max-width: 42vw;
+        margin-left: 1vw;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    
+    
+    .containerhome p {
+        max-width: 95vw;
+        text-align: center;
+    }
+
+    .divleft {
+        width: 100%;
+    }
+
+    .divleft button {
+        padding: 0.7rem;
+        font-size: 1.4rem;
+        width: 70%;
+    }
+
+    .divright {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .containerhome p {
+        max-width: 95vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .containerhome .span2 {
+        font-size: 1.8rem;
+    }
+
+    .divleft {
+        width: 100%;
+    }
+
+    .divleft p {
+        font-size: 1.6rem;
+    }
+
+    .containerhome span {
+        font-size: 1.8rem;
+    }
+
+    .containerhome .span2 {
+        font-size: 1.6rem;
+    }
+
+    .divleft button {
+        padding: 0.7rem;
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .divright {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containerhome p {
+        max-width: 95vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .containerhome .span2 {
+        font-size: 1.8rem;
+    }
+
+    .divleft {
+        width: 100%;
+    }
+
+    .divleft p {
+        font-size: 1.6rem;
+    }
+
+    .containerhome span {
+        font-size: 1.8rem;
+    }
+
+    .containerhome .span2 {
+        font-size: 1.6rem;
+    }
+
+    .divleft button {
+        padding: 0.7rem;
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .divright {
+        width: 0%;
+        display: none;
+    }
+}
