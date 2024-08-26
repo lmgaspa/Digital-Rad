@@ -1,0 +1,119 @@
+.containerform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.erro {
+    color: red;
+    margin-bottom: 0.7vh;
+    margin-top: 0.1vh;
+}
+
+.form {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inputform {
+    margin-bottom: 1vh;
+    height: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 31vw;
+}
+
+.textarea {
+    height: 15vh;
+    padding-top: 0vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 31vw;
+}
+
+.buttonform {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #004884;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 15vw;
+    background-color: rgb(255, 255, 255);
+    padding: 0.6vh;
+    text-align: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    .containerform {
+        width: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .inputform {
+        width: 60vw;
+    }
+
+    .textarea {
+        width: 60vw;
+    }
+
+    .buttonform {
+        width: 20vw;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .containerform {
+        width: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .inputform {
+        width: 80vw;
+    }
+
+    .textarea {
+        width: 80vw;
+    }
+
+    .buttonform {
+        width: 32vw;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containerform {
+        width: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .inputform {
+        width: 80vw;
+    }
+
+    .textarea {
+        width: 80vw
+    }
+
+    .buttonform {
+        width: 55vw;
+    }
+}

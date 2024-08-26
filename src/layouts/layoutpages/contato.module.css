@@ -1,0 +1,40 @@
+.containercontato {
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 1.2rem;
+    align-items: center;
+    color: black;
+}
+
+.containercontato h1 {
+    color: #004884;
+    margin-bottom: 1.2vh;
+    font-size: 1.6rem;
+    padding-top: 1vh;
+}
+
+.objeto1 {
+    margin-bottom: -2px;
+}
+
+.objeto2 {
+    font-size: 1.5rem;
+    margin-bottom: -5px;
+}
+
+.down {
+    margin-bottom: 20rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containercontato {
+        width: auto;
+        text-align: center;
+        padding-left: 2vw;
+        padding-right: 6vw;
+    }
+
+    .containercontato h1 {
+        font-size: 1.3rem;
+    }
+}

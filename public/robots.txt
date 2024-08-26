@@ -1,0 +1,9 @@
+# Allow all crawlers to access everything
+User-agent: *
+Disallow:
+
+# Block specific directories or pages if needed
+# Disallow: /private/
+
+# Specify the location of your sitemap (optional but recommended)
+Sitemap: https://www.digitalrad.net.br/sitemap.xml

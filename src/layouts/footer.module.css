@@ -1,0 +1,89 @@
+.containerfooter {
+    background-color: #372465;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5.6rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.containerfooter p {
+    margin-top: 2vh;
+}
+
+.icon1 {
+font-size: 1.6rem;
+margin-bottom: -0.4rem;
+margin-right: 0.5rem;
+}
+
+.icon2 {
+    margin-bottom: -0.2rem;
+    margin-right: 0.8rem;
+}
+
+.icon3 {
+    font-size: 1.6rem;
+    margin-bottom: -0.4rem;
+    margin-right: 0.6rem;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1400px) {
+    .containerfooter {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+    .containerfooter {
+        display: grid;
+        font-size: 18px;
+        height: 100%;
+        justify-content: center;
+        padding: 0;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+    }
+
+    .containerfooter p {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .containerfooter {
+        display: grid;
+        font-size: 16px;
+        height: 100%;
+        justify-content: center;
+        padding: 0;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+    }
+
+    .containerfooter p {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containerfooter {
+        display: grid;
+        font-size: 16px;
+        height: 100%;
+        justify-content: center;
+        padding: 0;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+    }
+
+    .containerfooter p {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}

@@ -1,0 +1,101 @@
+.containerquemprincipal {
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.8vh;
+}
+
+.containerquemprimeiro {
+    width: 60%;
+    margin-left: 60px;
+}
+
+.containerquemprimeiro h1 {
+    text-align: center;
+    color: #004884;
+    margin-bottom: 0.2vh;
+}
+
+.containerquemprimeiro h2 {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 3.8vh;
+}
+
+.containerquemprimeiro h3 {
+    margin-top: 1.5vh;
+    color: black;
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.containerquemprimeiro span {
+    color: #004884;
+}
+
+.quemsomosright {
+    margin-left: 100px;
+    width: 80%;
+}
+
+.quemsomosright img {
+    width: 90%;
+}
+
+.down {
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 1320px) and (max-width: 1500px) {
+    .quemsomosright {
+        display: flex;
+    }
+
+    .quemsomosright img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1319px) {
+    .containerquemprimeiro {
+        margin-left: 20px;
+        width: 90%;
+    }
+    
+    .quemsomosright {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .containerquemprimeiro {
+        margin-left: 20px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .containerquemprimeiro h1 {
+        text-align: left;}
+    
+    .quemsomosright {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .containerquemprimeiro {
+        margin-left: 20px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .containerquemprimeiro h1 {
+        text-align: left;}
+
+    .quemsomosright {
+        display: none;
+    }
+}
