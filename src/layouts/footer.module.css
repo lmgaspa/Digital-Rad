@@ -1,14 +1,16 @@
 .containerfooter {
-    background-color: #372465;
-    color: white;
     display: flex;
-    justify-content: space-around;
-    font-size: 22px;
-    font-weight: 600;
-    padding: 5.6rem;
-    margin-top: 1rem;
+    flex-direction: column; /* organiza os itens um embaixo do outro */
+    justify-content: center; /* centraliza verticalmente */
+    align-items: center; /* centraliza horizontalmente */
     text-align: center;
-}
+    height: auto;
+    background-color:#004884;
+    padding: 2rem;
+    color: white;
+    gap: 1.5rem;
+  }
+  
 
 .containerfooter p {
     margin-top: 2vh;

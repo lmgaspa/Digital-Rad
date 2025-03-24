@@ -25,10 +25,9 @@ const Quemsomos: React.FC = () => {
           </h3>
           <h1>Quem são os nossos parceiros?</h1>
           <h3>
-            Dentre nossos parceiros estão, a Irmandade da Santa Casa Nossa Senhora das Graças, a AMIL do United Health Group,
+             nossos parceiros estão, a Irmandade da Santa Casa Nossa Senhora das Graças, a AMIL do United Health Group,
             Centro de Diagnóstico Capão Raso, Clínica Dr.
-            Mantovani, entre outros no interior do Estado do Paraná, que podem atestar a
-            satisfação e o sucesso da nossa parceria.
+            Mantovani, e da Clínica Cajuru.
           </h3>
           <h2>
             CASO QUEIRA CONHECER MELHOR SOBRE NOSSOS SERVIÇOS E

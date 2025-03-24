@@ -19,6 +19,7 @@ const Footer: React.FC = () => {
       <div>
         <AiOutlineMail className={styles.icon3} />E-mail:
         <p>digital.rad@outlook.com</p>
+        <p>© Copywriter. Simple Software. Todos os direitos reservados.  2024.</p>
       </div>
     </section>
   );
